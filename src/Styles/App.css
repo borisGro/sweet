@@ -1,0 +1,64 @@
+.App {
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.card-container {
+  height: 300px;
+  width: 500px;
+  background-color: #daf4ff;
+  box-shadow: 1px 1px 4px gray;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  
+} 
+
+
+.avatar {
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px gray;
+
+}
+
+.message-container {
+max-width: 480px;
+max-height: 200px;
+background-color: whitesmoke;
+border: 1px solid black;
+border-radius: 20px;
+position: absolute;
+}
+
+.message-text {
+  margin: 0;
+  padding: 10px;
+  max-width: 500px;
+  max-height: 200px;
+}
+
+.foot-content {
+  position: relative;
+  width: 500px;
+  height: 124px;
+}
+
+.love-container {
+  position: absolute;
+  top: 150px;
+}
+
+.love-btn {
+border: none;
+background-color: bisque;
+padding: 10px;
+cursor: pointer;
+box-shadow: 1px 1px 4px gray;
+border-radius: 10%;
+font-weight: 600;
+outline: none;
+}
