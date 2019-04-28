@@ -26,7 +26,7 @@ class App extends Component {
       />
 
       <Card
-      name= {<DataFetcher />}
+    name= {null}
       avatar= {null}
       message={null}
       />

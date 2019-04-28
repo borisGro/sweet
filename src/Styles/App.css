@@ -16,7 +16,10 @@ flex-direction: column;
   
 } 
 
+.header-name {
+text-transform: capitalize;
 
+}
 .avatar {
   height: 50px;
   width: auto;
@@ -53,12 +56,12 @@ position: absolute;
 }
 
 .love-btn {
-border: none;
-background-color: bisque;
-padding: 10px;
-cursor: pointer;
-box-shadow: 1px 1px 4px gray;
-border-radius: 10%;
-font-weight: 600;
-outline: none;
+  border: none;
+  background-color: bisque;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px gray;
+  border-radius: 10%;
+  font-weight: 600;
+  outline: none;
 }
