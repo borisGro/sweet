@@ -30,29 +30,30 @@ text-transform: capitalize;
 
 .message-container {
 max-width: 480px;
-max-height: 200px;
+max-height: 150px;
 background-color: whitesmoke;
 border: 1px solid black;
 border-radius: 20px;
 position: absolute;
+overflow: scroll;
 }
 
 .message-text {
   margin: 0;
   padding: 10px;
+  font-size: 25px;
+  font-weight: 600;
   max-width: 500px;
   max-height: 200px;
 }
 
 .foot-content {
-  position: relative;
   width: 500px;
   height: 124px;
 }
 
 .love-container {
-  position: absolute;
-  top: 150px;
+margin-top: 170px;  
 }
 
 .love-btn {

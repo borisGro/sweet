@@ -1,4 +1,5 @@
 import React from "react";
+import Love from "./Love";
 
 export default class DataFetcher extends React.Component {
 
@@ -29,11 +30,13 @@ constructor(props) {
             {this.state.loading || !this.state.person ? (
                  <div>fetching...</div>
              ) : ( 
-              <div>
-                  <div>{this.state.person.name.first}</div>
-                  <div>{this.state.person.name.last}</div>
-                  <img src={this.state.person.picture.medium} />
-                  <div >{this.state.quote} </div>
+              <div className="card-container">
+                  <img className="avatar" src={this.state.person.picture.medium} />
+                  <div className="header-name"><h3>{this.state.person.name.first} {this.state.person.name.last}</h3></div>
+                  <div className="message-container">
+                    <div className="message-text">{this.state.quote}</div>
+                  </div>
+                  <Love />
               </div>
         
              )}

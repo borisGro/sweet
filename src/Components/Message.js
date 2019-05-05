@@ -6,9 +6,9 @@ export default class Message extends React.Component {
         return (
 
             <div className="message-container">
-                <h1 className="message-text"> 
+                <div className="message-text"> 
                    {this.props.message} 
-                </h1>
+               </div>
             </div>
         )
     }

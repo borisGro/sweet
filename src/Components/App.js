@@ -25,11 +25,7 @@ class App extends Component {
       message= "Life is good!"
       />
 
-      <Card
-      name= {<DataFetcher />}
-      avatar= {null}
-      message={null}
-      />
+      <DataFetcher />
 
       </div>
     );
