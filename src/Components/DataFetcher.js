@@ -1,5 +1,6 @@
 import React from "react";
 import Love from "./Love";
+import Loader from './Loader'
 
 export default class DataFetcher extends React.Component {
 
@@ -28,7 +29,7 @@ constructor(props) {
         return (
         <div> 
             {this.state.loading || !this.state.person ? (
-                 <div>fetching...</div>
+                 <div><Loader /></div>
              ) : ( 
               <div className="card-container">
                   <img className="avatar" src={this.state.person.picture.medium} />
