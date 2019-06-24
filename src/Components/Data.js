@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../Styles/App.css'
 import Card from './Card'
-import DataFetcher from './DataFetcher'
 
 
 import kels from '../kels.jpg'
