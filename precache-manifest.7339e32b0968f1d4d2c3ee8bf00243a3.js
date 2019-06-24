@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "d335078b990675c8252e",
-    "url": "/sweet/static/css/main.330f1f24.chunk.css"
+    "revision": "ffa136771a7765e49883",
+    "url": "/sweet/static/css/main.8a5fbd0f.chunk.css"
   },
   {
-    "revision": "d335078b990675c8252e",
+    "revision": "ffa136771a7765e49883",
     "url": "/sweet/static/js/main.150fcbfc.chunk.js"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/sweet/static/media/headshot.261b3e10.jpg"
   },
   {
-    "revision": "54d3618f8ae94c343fc8b57b3d6e771f",
+    "revision": "f22651b6ffcc232d30784d15ceb6ead1",
     "url": "/sweet/index.html"
   }
 ];
